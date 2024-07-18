@@ -22,7 +22,8 @@ function User(props) {
           <div>
             {
             data.cars.map((val, ind)=>{
-              <Car key={ind} data={val} />
+              // console.log(val);
+               return <Car key={ind} data={val} />
             })
           }
           </div>
